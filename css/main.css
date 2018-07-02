@@ -1,0 +1,31 @@
+html {
+    background: #000;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.clock{
+    color: #ffffff;
+    margin: 2rem;
+    width: 27rem;
+}
+
+.clock .time{
+    display: inline-flex;
+}
+
+.clock .time .hours{
+    font-size: 10rem;
+}
+
+.clock .time .seconds{
+    font-size: 5rem;
+    color: #808080;
+}
+
+.clock .date{
+    text-align: right;
+    font-size: 1.8rem;
+}
