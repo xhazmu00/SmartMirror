@@ -1,21 +1,15 @@
 
 $(function(){
 
-
-
     // jQuery methods go here...
 
     var clock = $(".clock");
-
     var time = $("<div>").addClass("time").appendTo(clock);
     
     var hours = $("<div>").addClass("hours").appendTo(time);
     var seconds = $("<div>").addClass("seconds").appendTo(time);
 
     var date = $("<div>").addClass("date").appendTo(clock);
-
-    date.clock();
-
 
     setInterval(function(){
        
