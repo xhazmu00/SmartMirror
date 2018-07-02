@@ -5,7 +5,8 @@
 // co chci mit v nabidce
 
 1. hodiny, datum, den v týdnu
-1.1 eventuální ukazatel dne a noci, založený na východu a západu slunce
+1.1 eventuální ukazatel dne a noci, založený na východu a západu slunce (výměna založena
+na animaci)
 
 2. předpověď počasí
 
