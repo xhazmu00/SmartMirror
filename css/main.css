@@ -7,14 +7,13 @@ body {
     font-weight: lighter;
 }
 
-.clock{
-    color: #ffffff;
+.fullscreen{
     margin: 2rem;
-    width: 27rem;
 }
 
-.clock .container{
-    display: inline-block;
+.clock{
+    color: #ffffff;
+    float: left;
 }
 
 .clock .time{
@@ -33,4 +32,13 @@ body {
 .clock .date{
     text-align: right;
     font-size: 1.8rem;
+}
+
+
+/** weather */
+
+.weather{
+    color: white;
+    float: right;
+    font-size: 7rem;
 }
