@@ -15,3 +15,11 @@ na animaci)
 + notifikace
 + kalendář
 + hudba - assistent
+
+
+
+//////////////////
+
+- ikony ke počasí musí být ve formátu .svg
+- invertování barev se nastaví css option: filter: invert(1)
+- velikost se škáluje pomocí width
