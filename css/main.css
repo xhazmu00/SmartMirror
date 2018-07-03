@@ -13,8 +13,12 @@ body {
     width: 27rem;
 }
 
+.clock .container{
+    display: inline-block;
+}
+
 .clock .time{
-    display: inline-flex;
+    display: flex;
 }
 
 .clock .time .hours{
