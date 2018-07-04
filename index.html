@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>SmartMirror</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="js/moment-with-locales.min.js"></script>
-	<script type="text/javascript" src="js/clock.js"></script>
+    <meta charset="UTF-8">
+    <title>Smart Mirror</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="js/clock.js"></script>
 </head>
+
 <body>
-
-	<div class="fullscreen">
-		
-		<div class="clock"></div>
-		<div class="weather">Weather Test</div>
-
-	</div>
-
-
+    <div id="header">header</div>
+    <div id="up" class="container">
+        <div id="left" class='clock'></div>
+        <div id="center">2</div>
+        <div id="right" class='weather'>Weather<br>30°C</div>
+    </div>
+    <div id="middle" class="container">
+        <div id="left">4</div>
+        <div id="center" class='short_info'>Hello,<br> Josh!</div>
+        <div id="right">6</div>
+    </div>
+    <div id="down" class="container">
+        <div id="left">7</div>
+        <div id="center" class='quotes'>Quotes</div>
+        <div id="right">9</div>
+    </div>
+    <div id="footer">footer</div>
 </body>
-</html>
 
+</html>
