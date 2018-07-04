@@ -1,44 +1,84 @@
 html {
-    background: #000;
+    background-color: black;
 }
 
 body {
     font-family: "Roboto Condensed", sans-serif;
+}
+
+#header {
+    background-color: #666;
+    text-align: center;
+    font-size: 0.5rem;
+    color: white;
+}
+
+#footer {
+    background-color: #777;
+    text-align: center;
+    font-size: 0.5rem;
+    color: white;
+}
+
+.container {
+    margin: 0.5rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+#left {
+    float: left;
+    width: 10rem;
+    background: lightgray;
+}
+
+#center {
+    display: inline-block;
+    margin: 0 auto;
+    width: 10rem;
+    background: lightgray;
+}
+
+#right {
+    float: right;
+    width: 10rem;
+    background: lightgray;
+}
+
+#middle #center.short_info {
+    color: white;
+    background: black;
     font-weight: lighter;
 }
 
-.fullscreen{
-    margin: 2rem;
+#up #left.clock {
+    color: white;
+    background: black;
+    font-weight: lighter;
 }
 
-.clock{
-    color: #ffffff;
-    float: left;
+#up #left.clock .time {
+    display: inline-flex;
 }
 
-.clock .time{
-    display: flex;
-}
-
-.clock .time .hours{
-    font-size: 10rem;
-}
-
-.clock .time .seconds{
-    font-size: 5rem;
+#up #left.clock .time .seconds {
+    font-size: 0.55rem;
     color: #808080;
 }
 
-.clock .date{
-    text-align: right;
-    font-size: 1.8rem;
+#up #left.clock .date {
+    text-align: center;
+    font-size: 0.5rem;
 }
 
-
-/** weather */
-
-.weather{
+#up #right.weather {
     color: white;
-    float: right;
-    font-size: 7rem;
+    background: black;
+    font-weight: lighter;
+}
+
+#down #center.quotes {
+    color: white;
+    background: black;
+    font-weight: lighter;
 }
